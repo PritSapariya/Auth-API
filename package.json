@@ -1,0 +1,22 @@
+{
+  "name": "auth-api",
+  "version": "1.0.0",
+  "description": "Authentication API built on Node.js, Express.js and MongoDB with JWT token.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PritSapariya/Auth-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PritSapariya/Auth-API/issues"
+  },
+  "homepage": "https://github.com/PritSapariya/Auth-API#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
