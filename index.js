@@ -17,9 +17,11 @@ mongoose.connect(process.env.DB_CONNECTION,
 
 //Importing Routes
 const authRouter = require('./routers/auth');
+const postRouter = require('./routers/posts');
 
 //Setting Routes
 app.use('/api/user', authRouter);
+app.use('/api/posts', postRouter);
 
 // Listing on port
 app.listen(3000, () => console.log('Server is running'));
